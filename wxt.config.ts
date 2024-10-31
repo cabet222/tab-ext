@@ -8,6 +8,6 @@ export default defineConfig({
   manifest: {
     name: "Tab Manager",
     version: "1.0.0",
-    permissions: ["tabs"],
+    permissions: ["tabs", "storage"],
   },
 });
